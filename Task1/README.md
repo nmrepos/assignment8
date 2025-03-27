@@ -19,23 +19,23 @@ This configuration uses the `count` meta-argument to launch three identical EC2 
 ### How to Run
 
 1. Open terminal and navigate to the `count` directory:
-cd Task1/count
+`cd Task1/count`
 
 2. Initialize Terraform:
-terraform init
+`terraform init`
 
 3. Preview the resources to be created:
-terraform plan
+`terraform plan`
 
 4. Apply the configuration:
-terraform apply
+`terraform apply`
 
 5. Confirm by typing `yes` when prompted.
 
 ### How to Destroy
 
 To remove the created resources:
-terraform destroy
+`terraform destroy`
 
 ---
 
@@ -50,21 +50,21 @@ This configuration uses `for_each` with a map to create multiple security groups
 ### How to Run
 
 1. Navigate to the `for_each` directory:
-cd Task1/for_each
+`cd Task1/for_each`
 
 2. Initialize Terraform:
-terraform init
+`terraform init`
 
 3. Preview the changes:
-terraform plan
+`terraform plan`
 
 4. Apply the configuration:
-terraform apply
+`terraform apply`
 
 5. Confirm by typing `yes` when prompted.
 
 ### How to Destroy
 
 To remove the created security groups:
-terraform destroy
+`terraform destroy`
 
