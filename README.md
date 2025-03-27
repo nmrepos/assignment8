@@ -9,8 +9,7 @@
 .
 ├── task1/     # Task 1: Loops (count and for_each)
 ├── task2/     # Task 2: Built-in Functions
-├── task3/     # Task 3: Modularization and Advanced Expressions
-└── MAIN_README.md
+└── task3/     # Task 3: Modularization and Advanced Expressions
 ```
 
 ---
